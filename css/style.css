@@ -1,9 +1,43 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: bisque;
 
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+body{
+    background-color: bisque;
+    font-family: 'Josefin Sans';
 }
-.container{
-    margin-top: 300px;
+
+.container div a{
+    color: white;
+    text-decoration: none;
 }
+
+.formulario-login{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+
+form{
+    width: 500px;
+}
+
+footer{
+    padding: 10px;
+    color: aliceblue;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer p a{
+    color: bisque;
+    text-decoration: none;
+}
+
